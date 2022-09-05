@@ -172,6 +172,7 @@ export default function Home({
               />
             ) : (
               <NoResult
+                setDefaultValue={setDefaultValue}
                 setFilter={setFilter}
                 setFilterOpt={setFilterOpt}
                 tech={tech}

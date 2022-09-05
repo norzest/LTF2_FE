@@ -1,8 +1,14 @@
 import * as Styled from "../styles/cartStyle";
 import { LGButton } from "./Button";
 
-export default function NoResult({ setFilterOpt, setFilter, tech }) {
+export default function NoResult({
+  setDefaultValue,
+  setFilterOpt,
+  setFilter,
+  tech,
+}) {
   const onClick = () => {
+    setDefaultValue("전체");
     setFilter({
       plan: "전체",
       disCountType: "전체",
