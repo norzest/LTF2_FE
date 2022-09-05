@@ -1,3 +1,4 @@
+// writer : 전웅재
 export const validator = (state, fieldName) => {
   let errors = {};
   switch (fieldName) {
