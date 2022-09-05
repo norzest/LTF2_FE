@@ -1,3 +1,4 @@
+// writer: 권혁준
 import * as DetailInfo from "../styles/detailInfoStyle";
 import { Row } from "../styles/gridStyle";
 import { LGButton } from "./Button";

@@ -1,3 +1,4 @@
+// writer: 권혁준
 import * as PlanStyle from "../styles/planStyle";
 
 export default function PlanBox({ row, active, setRadio }) {

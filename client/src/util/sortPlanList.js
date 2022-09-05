@@ -1,3 +1,4 @@
+// writer: 권혁준
 export default function sortPlanList(
   type,
   arr, // phoneList

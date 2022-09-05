@@ -1,3 +1,4 @@
+// writer: 권혁준
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../image/logo.svg";

@@ -1,3 +1,4 @@
+// writer: 권혁준
 import SideFlexRow from "./SideFlexRow";
 import * as ModalStyle from "../styles/modalStyle";
 import * as Compare from "../styles/compareStyle";

@@ -1,3 +1,4 @@
+// writer: 권혁준
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 

@@ -1,4 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
+// writer: 권혁준
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import * as NF from "../styles/notFoundStyle";

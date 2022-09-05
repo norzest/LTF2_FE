@@ -1,4 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
+// writer: 권혁준
 import React, { useEffect, useState } from "react";
 import { Row } from "../styles/gridStyle";
 import OrderBar from "../components/OrderBar";
@@ -31,9 +32,9 @@ export default function Detail({
 
   // plan
   const [planList, setPlanList] = useState([]);
-
+  // plan box modal control, row는 내용, show는 modal show toggle
   const [showPlan, setShowPlan] = useState({ row: {}, show: false });
-
+  // 현재 디테일 페이지 내 보여줄 내용 state
   const [active, setActive] = useState({
     nav: "예상 납부금액",
     registration: "기기변경",
@@ -47,10 +48,11 @@ export default function Detail({
     date: new Date(),
     error: false,
   });
-
+  // 가격 정보 state
   const [priceInfo, setPriceInfo] = useState({});
-
+  // 휴대폰 정보 및 요금제, 공시지원금 데이터 받아오기
   const handleData = async (planId) => {
+    // 공시지원금 api 요청
     const getPublicSupportPrice = (pId) =>
       getPublicSupportByPhoneIdAndPlanId({
         phone_id: id,
@@ -62,10 +64,14 @@ export default function Detail({
           return s.PublicSupportPrice;
         }
       });
+    // [휴대폰정보, 요금제정보, 요금제 리스트, 공시지원금]
     const [phoneData, planData, planList, supportPrice] =
+      // 휴대폰정보 api 요청
       await getPhoneByPhoneId(id).then(async (d) => {
+        // 정보 없을 시 error return
         if (d.status === 404) {
           return ["error", "error", "error", "error"];
+          // 요금제 리스트가 있을 경우 공시지원금 정보만 받아옴
         } else if (plans.length !== 0) {
           const planArr = plans.filter(
             (row) => row.telecomTech === d.phoneDetail.telecomTech
@@ -82,6 +88,7 @@ export default function Detail({
               : getPublicSupportPrice(nowPlan.planId),
           ]);
         } else {
+          // 요금제 리스트가 없을 경우 요금제 명단 및 공시지원금 정보 받아옴
           return await getPlansByTelecomTech(d.phoneDetail.telecomTech).then(
             async (p) => {
               const planArr = p.PlanList;

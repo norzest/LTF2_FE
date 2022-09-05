@@ -1,3 +1,4 @@
+// writer: 권혁준
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import * as DetailInfo from "../styles/detailInfoStyle";
