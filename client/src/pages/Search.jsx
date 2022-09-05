@@ -1,3 +1,5 @@
+// writer : 최강현
+
 import React from "react";
 import * as SearchStyle from "../styles/searchStyle";
 import { PageContainer } from "../components/PageContainer";

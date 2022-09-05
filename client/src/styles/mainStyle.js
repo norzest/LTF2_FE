@@ -1,3 +1,4 @@
+// writer : 최강현
 import styled from "styled-components";
 
 export const MainBox = styled.div`
