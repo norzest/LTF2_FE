@@ -1,3 +1,4 @@
+// writer : 심영효
 import * as Bar from "../styles/barStyle";
 
 export default function CartBar({ active, setActive }) {
