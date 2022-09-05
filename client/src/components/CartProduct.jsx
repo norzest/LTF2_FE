@@ -107,7 +107,7 @@ export default function CartProduct({
               </Styled.OptionItemSpan>
               <Styled.OptionItemLine />
 
-              {data.installment > 0 ? (
+              {data.installment > 1 ? (
                 <Styled.OptionItemSpan>
                   {data.installment}개월 할부
                 </Styled.OptionItemSpan>
