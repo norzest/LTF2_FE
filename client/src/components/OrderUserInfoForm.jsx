@@ -42,7 +42,6 @@ function OrderUserInfoForm({ setCallback, setRequires, reqired, data }) {
   }, [state]);
 
   useEffect(() => {
-    console.log(reqired);
     setDisable(Object.values(reqired).includes(false));
   }, [reqired]);
   return (
