@@ -196,7 +196,13 @@ export default function CartProduct({
               ) === -1 && compareDisabled
             }
             onClick={() =>
-              inputComparePhone(phone, data.info.planId, propsList)
+              inputComparePhone(
+                phone,
+                data.info.planId,
+                propsList,
+                data.discount,
+                data.installment
+              )
             }
           >
             비교하기

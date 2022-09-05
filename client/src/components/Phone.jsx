@@ -150,7 +150,15 @@ export default function Phone({
                 (row) => row.phoneId === phone.phoneId
               ) === -1 && compareDisabled
             }
-            onClick={() => inputComparePhone(phone, comparePlanId, propsList)}
+            onClick={() =>
+              inputComparePhone(
+                phone,
+                comparePlanId,
+                propsList,
+                filterOpt.disCountType,
+                filterOpt.disCountType === 12 ? 12 : 24
+              )
+            }
           >
             비교하기
           </LGButton>
