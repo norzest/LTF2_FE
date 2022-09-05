@@ -51,8 +51,8 @@ export default function Phone({
       date: new Date(),
       color: phone.colorList[0],
       registration: "신규가입",
-      installment: 24,
-      discount: 24,
+      installment: filterOpt.disCountType === 12 ? 12 : 24,
+      discount: filterOpt.disCountType,
     };
     goToCart(active, saveCart, changeModalMsg, navigate, setOpen);
   };
