@@ -1,3 +1,4 @@
+// writer : 전웅재
 export const ordering = (type,list,actualPay) => {
   let orderedList = []
 

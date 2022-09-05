@@ -1,3 +1,5 @@
+// writer : 최강현
+
 import { useNavigate } from "react-router-dom";
 import * as ResultCount from "../styles/searchResultCountStyle";
 import { LGButton } from "./Button";

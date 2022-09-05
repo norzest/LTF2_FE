@@ -1,3 +1,5 @@
+// writer : 최강현
+
 import * as Bar from "../styles/searchBarStyle";
 import SearchIcon from '@mui/icons-material/Search';
 import { useState, useEffect } from "react";

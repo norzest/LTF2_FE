@@ -1,4 +1,6 @@
+// writer : 최강현
 // modifier: 권혁준
+
 import React from "react";
 import * as SearchStyle from "../styles/searchStyle";
 import SearchBar from "../components/SearchBar";

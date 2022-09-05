@@ -1,3 +1,4 @@
+// writer : 최강현
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import * as Styles from "../styles/mainStyle";

@@ -1,3 +1,4 @@
+// writer : 심영효
 import React, { useState } from "react";
 import * as Styled from "../styles/cartStyle";
 import { LGButton } from "../components/Button";

@@ -1,3 +1,4 @@
+// writer : 심영효
 import React from "react";
 import * as Styles from "../styles/titleSectionStyle";
 
