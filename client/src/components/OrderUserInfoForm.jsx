@@ -8,7 +8,7 @@ import InputBankAccount from "./InputBankAccount";
 import InputCardInfo from "./InputCardInfo";
 
 function OrderUserInfoForm({ setCallback, setRequires, reqired, data }) {
-  const [disable, setDisable] = useState(false);
+  const [disable, setDisable] = useState(true);
   const [userData, setUserData] = useState({
     ablePhone: "",
     email: "",
