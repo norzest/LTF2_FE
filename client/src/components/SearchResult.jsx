@@ -1,3 +1,5 @@
+// writer : 최강현
+
 import * as Result from "../styles/searchResultStyle";
 import PhoneList from "../components/PhoneList";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
