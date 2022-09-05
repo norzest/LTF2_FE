@@ -1,6 +1,6 @@
+// modifier: 권혁준
 import React from "react";
 import * as SearchStyle from "../styles/searchStyle";
-import { PageContainer } from "../components/PageContainer";
 import SearchBar from "../components/SearchBar";
 import SearchResult from "../components/SearchResult";
 import SearchResultCount from "../components/SearchResultCount";

@@ -1,4 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
+// writer: 권혁준
 import { DetailPrice } from "./DetailPrice";
 import DetailSpec from "./DetailSpec";
 

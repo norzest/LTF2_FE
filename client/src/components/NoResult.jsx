@@ -1,3 +1,4 @@
+// writer: 권혁준
 import * as Styled from "../styles/cartStyle";
 import { LGButton } from "./Button";
 

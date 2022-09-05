@@ -1,3 +1,4 @@
+// writer: 권혁준
 import HashLoader from "react-spinners/HashLoader";
 
 export default function Loader() {

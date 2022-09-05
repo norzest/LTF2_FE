@@ -1,3 +1,4 @@
+// writer: 권혁준
 import { useNavigate } from "react-router-dom";
 import { mapDataArr } from "../assets/navMapData";
 import * as Bar from "../styles/barStyle";

@@ -1,3 +1,4 @@
+// writer: 권혁준
 import { SideFlex } from "../styles/detailInfoStyle";
 
 export default function SideFlexRow({ left, right, title }) {

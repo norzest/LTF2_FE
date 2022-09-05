@@ -1,3 +1,4 @@
+// writer: 권혁준
 export function discountType(num) {
   switch (num) {
     case -1:

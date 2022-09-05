@@ -1,3 +1,4 @@
+// writer: 권혁준
 import React, { useRef, useState } from "react";
 import * as Bar from "../styles/barStyle";
 import SearchIcon from "@mui/icons-material/Search";

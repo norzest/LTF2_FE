@@ -1,3 +1,4 @@
+// writer: 권혁준
 import { Row } from "../styles/gridStyle";
 import { LGButton } from "./Button";
 import { ColorDot } from "./ColorDot";
